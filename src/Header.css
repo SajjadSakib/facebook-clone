@@ -30,5 +30,19 @@ input.Search{
   
 }
 .header_item{
-  padding-left: 20px;
+  padding-left: 30px;
+}
+.header_item > .MuiSvgIcon-root{
+  color: gray;
+}
+.header_item > .MuiSvgIcon-root:hover {
+  color: #4267B2;
+  cursor: pointer;
+
+}
+.header_item--active > .MuiSvgIcon-root{
+  color: #4267B2;
+}
+.header_item--active{
+  border-bottom: 2px solid #4267B2;
 }
