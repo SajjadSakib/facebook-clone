@@ -1,0 +1,46 @@
+.update_status{
+    margin:15px 0px 15px 0px;
+    border-bottom: 2px ;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 2px solid gray;
+    color: gray;
+    
+}
+
+.status_option{
+    display: flex;
+    align-items: center;
+    
+}
+.status_option > p{
+    margin-left: 3px;
+}
+.hidden_button{
+    display: none;
+}
+.status_option > input{
+    border-width: 0px;
+    outline:none;
+    margin-left: 5px;
+    background: transparent;
+    padding: 2px 0px 2px 0px;
+}
+.status_bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.status_header > MuiAvatar-root{
+    margin-left: 7px;
+}
+.status_header{
+    margin-left: 15px;
+}
+.status_header .status_option{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.status_bottom  .status_option:hover{
+    cursor: pointer;
+}

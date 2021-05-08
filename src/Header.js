@@ -9,11 +9,18 @@ import { IconButton,Avatar } from '@material-ui/core';
 import AddIcon from '@material-ui/icons/Add';
 import ForumIcon from '@material-ui/icons/Forum';
 import SettingsIcon from '@material-ui/icons/Settings';
+import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 
 
-function Header(){
+function Header({user}){
+  const logout = () =>{
+    localStorage.removeItem('authUser');
+    window.location.reload();
+  }
+
   return(
     <div className='header'>
+      
       <div className='header_left'>
         <div>
           <img
@@ -48,7 +55,7 @@ function Header(){
       
       <div className='header_button'>
       <IconButton>
-       <Avatar />
+       <Avatar src={user.photoURL} />
       </IconButton>
       </div>
        <div className='header_button'>
@@ -65,6 +72,12 @@ function Header(){
       <div className='header_button'>
       <IconButton>
        <SettingsIcon />
+       
+      </IconButton>
+      </div>
+      <div className='header_button'>
+      <IconButton onClick={logout}>
+       <PowerSettingsNewIcon />
        
       </IconButton>
       </div>

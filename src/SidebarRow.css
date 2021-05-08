@@ -1,0 +1,14 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+
+}
+.sidebarRow:hover{
+    color: #4267B2;
+    cursor: pointer;
+}
+.sidebarRow h4{
+    margin: 12px 0px 12px 7px;
+
+}

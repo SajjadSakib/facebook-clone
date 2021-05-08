@@ -4,7 +4,8 @@
   margin-top: 0px;
   display: flex;
   justify-content: space-between;
-  text-shadow: 2px 2px 0px 0px #ccc;
+  box-shadow: 0px 2px 0px 0px #DCDCDC;
+  position: sticky;
 }
 .header_left{
   display: flex;
@@ -21,7 +22,7 @@ input.Search{
 .SearchField{
   border:2px;
   border-radius: 15px;
-  background-color: #e8e8e8 ;
+  background-color: #DCDCDC ;
   margin-left: 10px;
   display: flex;
   align-items: center;

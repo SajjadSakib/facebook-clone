@@ -1,0 +1,36 @@
+.post_top{
+    display: flex;
+    align-items: top;
+}
+.avatar_group h4,h5{
+    margin:0px;
+    margin-left: 5px;
+    color: gray;
+}
+.post{
+    margin: 25px 0px;
+    border-radius: 5px;
+    border-bottom: 2px solid gray;
+    background-color: #e6e6e6;
+    padding: 5px 5px 5px 5px;
+
+}
+.post_bottom{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+    padding: 5px;
+    
+}
+.post_bottom .MuiSvgIcon-root{
+    padding: 2px 5px 2px 5px;
+    border-radius: 3px;
+}
+.post_bottom .MuiSvgIcon-root:hover{
+    background: #bfbfbf;
+    cursor: pointer;
+}
+.post .MuiAvatar-root,h4,img:hover{
+    cursor:pointer;
+}

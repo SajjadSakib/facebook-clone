@@ -1,0 +1,28 @@
+.login >div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 15px;
+    border-radius: 5px;
+    
+    
+}
+.login{
+    display: grid;
+    place-items: center;
+    margin-top: 150px !important;
+    
+
+    
+    
+}
+.login button{
+    margin-top: 100px;
+    width: 200px !important;
+}
+.login img{
+    margin-top: 20px;
+}

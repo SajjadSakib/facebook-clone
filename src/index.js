@@ -1,11 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {createStore} from 'redux';
+import {Provider} from 'react-redux';
+import {setUser} from './Reducer';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const store = createStore(setUser);
+
 ReactDOM.render(
-    <App />,
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('root')
 );
 

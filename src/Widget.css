@@ -1,0 +1,9 @@
+.widget{
+    display: flex;
+    flex-direction: row;
+    max-width: 25%;
+    
+}
+.widget iframe{
+   
+}
